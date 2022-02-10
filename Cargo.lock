@@ -153,12 +153,13 @@ dependencies = [
 
 [[package]]
 name = "cmac"
-version = "0.6.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b70e37282d9624283878ffda1d1e53883bcf868cf441bddda44127620b39572d"
+checksum = "4e6be0f81cc4aafc2f8fadf52f889044b62ec13222e06d1a968919c78f9a7cb2"
 dependencies = [
- "crypto-mac",
+ "cipher 0.4.0",
  "dbl",
+ "digest",
 ]
 
 [[package]]
@@ -185,7 +186,6 @@ version = "0.11.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "b1d1a86f49236c215f271d40892d5fc950490551400b02ef360692c29815c714"
 dependencies = [
- "cipher 0.3.0",
  "generic-array",
  "subtle",
 ]
