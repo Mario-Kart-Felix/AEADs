@@ -25,7 +25,7 @@ cpufeatures = "0.2"
 aead = { version = "0.4", features = ["dev"], default-features = false }
 kuznyechik = "0.8"
 magma = "0.8"
-hex-literal = "0.3"
+hex-literal = "0.4"
 
 [features]
 default = ["alloc"]
